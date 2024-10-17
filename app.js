@@ -6,10 +6,10 @@ console.log(count);
 
 function fun(){
 
-    if(count >= 3){
+    if(count >= 2){
         count = 0;
     }else if(count <= 0){
-        count = 3;
+        count = 2;
     }
 
     getImg.setAttribute("src", imgLinks[count]);
@@ -26,3 +26,5 @@ function fun(){
 }
 
 setInterval(fun, 6000)
+
+// getImg.setAttribute("src", imgLinks[2]);
